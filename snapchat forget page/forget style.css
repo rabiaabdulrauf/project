@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:rgb(244, 244, 244);
+}
+.container{
+    border: 2px solid;
+    height: 310px;
+    width: 350px;
+   margin: 35px 50px 0px 450px;
+   background-color: white;
+   border: transparent;
+
+}
+img{
+    height: 65px;
+    width: 65px;
+    padding-left: 140px;
+}
+h1{
+    font-size: 23px;
+    padding-left: 100px;
+    margin-top: -10px;
+}
+p{
+    padding-left: 90px;
+    font-size: 15px;
+    margin-top:10px;
+}
+.field{
+    padding-left: 25px;
+    margin-top: 20px;
+}
+input{
+    height: 43px;
+    width: 300px;
+    margin-top: 7px;
+    background-color: rgb(248, 245, 245);
+    border-color: transparent;
+    border-radius: 8px;
+}
+input:hover{
+    border-color: rgb(254, 254, 139);
+}
+button{
+    height: 40px;
+    width: 120px;
+    margin-left: 115px;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: rgb(201, 200, 200);
+    border-color: transparent;
+    cursor: not-allowed;
+}
+button:hover{
+    background-color: rgb(249, 249, 109);
+    color: black;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:white;
+    margin-top: 100px;
+    
+ }
+ .flex-item{
+    height: 200px;
+    width: 200px;
+    border: 2px solid transparent;
+    color: black;
+    text-align: left;
+    margin-left: 100px;
+
+ }
+ #company{
+    color: black;
+    padding-top: 20px;
+ }
+ #community{
+    color: black;
+    padding-top: 20px;
+ }
+ #advertising{
+    color: black;
+    padding-top: 20px;
+ }
+ #legal{
+    color: black;
+    padding-top: 20px;
+ }
+ ul{
+    list-style: none;
+ }
+.english{
+    padding-left: 100px;
+    margin-top: -80px;
+
+}
+.select{
+    margin-top: 10px;
+}

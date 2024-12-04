@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 500px;
+    margin:0px 70px 0px 430px;
+    height: 830px;
+    background-color: white;
+    border: transparent;
+}
+body{
+    background-color: rgb(244, 244, 244);
+}
+ img{
+    height:70px;
+    width: 70px;
+    padding-left: 210px;
+    cursor: default;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: -19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form{
+    flex-direction: column;
+    padding: 10px 0px 0px 0px;
+}
+  .field input{
+    height: 45px;
+    width: 450px;
+    margin: 5px 10px 15px 15px;
+    border-radius: 10px;
+    border:1px solid transparent;
+    background-color: rgb(244, 244, 244);
+    padding-inline: 10px;
+}
+
+.field label{
+    padding-left: 10px;
+}
+ .field input:hover{
+    border-color: rgb(246, 249, 95);
+ }
+ .selector{
+    height: 45px;
+    width: 110px;
+    border-radius: 10px;
+    margin-left: 9px;
+    margin-top: 7px;
+ }
+ .selector1{
+    height: 45px;
+    width: 160px;
+    border-radius: 10px;
+    margin-left: 9px;
+    margin-top: 7px;
+ }
+ .selector2{
+    height: 45px;
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 9px;
+    margin-top: 7px;
+ }
+ p{
+    padding-left: 10px;
+ }
+ .para{
+    font-size: 14px;
+    padding-right: 4px;
+    padding-left: 10px;
+    margin-top: -15px;
+    color:rgb(66, 65, 65) ;
+ }
+ button{
+    margin: 20px 150px 20px 170px;
+    height: 45px;
+    width: 170px;
+    background-color: rgb(55, 167, 247);
+    border-color: transparent;
+    border-radius: 23px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+ }
+ .line{
+    padding-left: 30px;
+    color:rgb(66, 65, 65) ;
+ }
+ .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(248, 247, 247);
+    
+ }
+ .flex-item{
+    height: 200px;
+    width: 200px;
+    border: 2px solid transparent;
+    color: black;
+    text-align: left;
+    margin-left: 100px;
+
+ }
+ #company{
+    color: black;
+    padding-top: 20px;
+ }
+ #community{
+    color: black;
+    padding-top: 20px;
+ }
+ #advertising{
+    color: black;
+    padding-top: 20px;
+ }
+ #legal{
+    color: black;
+    padding-top: 20px;
+ }
+ ul{
+    list-style: none;
+ }
+.english{
+    padding-left: 100px;
+    margin-top: -80px;
+
+}
+.select{
+    margin-top: 10px;
+}
